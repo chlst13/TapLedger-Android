@@ -24,7 +24,7 @@ public class TollPortalActivity extends Activity {
     private String portalUrl=ASTRA;
     private int dp(int a) {return (int)(a*getResources().getDisplayMetrics().density+.5f);}
     private Button button(String title, LinearLayout parent, View.OnClickListener click) {
-        Button b=new Button(this); b.setText(title); b; parent.addView(b); b.setOnClickListener(click); return b;
+        Button b=new Button(this); b.setText(title); parent.addView(b); b.setOnClickListener(click); return b;
     }
     @Override public void onCreate(Bundle b) {
         super.onCreate(b);
