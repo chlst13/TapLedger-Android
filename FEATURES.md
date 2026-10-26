@@ -18,3 +18,10 @@
 - Excel export, full search/filter, analytics charts, backup and restore.
 
 Do not treat UID as authentication. Avoid transmitting or publishing raw card IDs.
+
+## Portal struk tol resmi — modul awal
+- Tombol **Cari struk tol online** membuka `https://astratol.co.id/` dalam WebView yang dibatasi ke domain tersebut.
+- Situs meminta nomor kartu dan periode; pengguna mengisinya sendiri. Aplikasi **tidak** mengambil UID NFC sebagai nomor kartu pembayaran, tidak mengirimkannya otomatis, dan tidak menembus CAPTCHA/autentikasi.
+- Gunakan tombol **Simpan PDF** setelah struk tampil untuk membuka dialog cetak Android dan pilih *Save as PDF*.
+- Ini **belum sinkronisasi transaksi otomatis** atau pengarsipan database; integrasi resmi/izin dan pemetaan format respons diperlukan untuk itu.
+- Situs eksternal dan ketersediaan struk bergantung pada operator. AstraTol menyebut retensi maksimal 30 hari.

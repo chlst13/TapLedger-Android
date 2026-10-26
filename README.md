@@ -40,3 +40,6 @@ READ ONLY; tidak mengirim perintah modifikasi saldo atau pembayaran. Tidak menye
 Build debug APK otomatis dari workflow `.github/workflows/android-apk.yml`. Lihat `UPLOAD_GITHUB.md` untuk membuat repository dan mengunduh artifact APK.
 
 Lihat `FEATURES.md` untuk status fitur yang tersedia dan keterbatasan NFC.
+
+### Online toll receipt (first integration)
+Open **Cari struk tol online** from Home or Card screen. The embedded official AstraTol website allows manual card-number/date search. After the real receipt appears, use **Simpan PDF** (Android Print > Save as PDF). No automated crawling, bulk scraping or transaction sync is claimed. The NFC tag UID is not necessarily the e-money card number.
